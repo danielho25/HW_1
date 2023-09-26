@@ -31,7 +31,6 @@
     color: #fff;
 }
 
-}
 
 /* media queries */
 
@@ -117,11 +116,13 @@ h1 {
 }
 
 
-/*game board*/
+/*game board
 
 table {
     --gap: 0 --cal-row-hgt: 100px;
-}
+}*/
+
+
 
 .game-board {
     background-color: black;
