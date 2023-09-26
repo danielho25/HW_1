@@ -4,6 +4,7 @@
     background-color: #738D6F;
     color: #fff;
     text-align: center;
+    box-shadow: 2px 2px 4px #888888;
 }
 
 .description {
@@ -12,10 +13,18 @@
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    border: 1px solid #333; 
+    padding: 10px;
 }
 
 .img-container {
     text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    overflow: hidden;
+    border: 1px solid # 333;
 }
 
 
@@ -23,6 +32,7 @@
 h1 {
     font-size: 24px;
     color: #000;
+    text-transform: uppercase;
 }
 
 
@@ -38,6 +48,7 @@ p {
     font-family: "Arial", sans-serif;
     font-size: 18px;
     color: #738D6F;
+    text-decoration: line-through;
 }
 
 
@@ -49,13 +60,14 @@ p {
 a {
     color: #000;
     text-decoration: none;
-    font-family: helvetica;
+    font-family: Helvetica, sans-serif;
     text-align: ;text-decoration: none;
     text-transform: uppercase;
 }
 
 a:hover {
     color: #fff;
+    text-decoration: underline;
 }
 
 a:visted {
@@ -64,7 +76,6 @@ a:visted {
 }
 
 
-/* styling for second page */
 
 
 /* media queries */
