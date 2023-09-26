@@ -1,0 +1,92 @@
+/* main styling for first page */
+
+.main-page-header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.description {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img-container {
+    text-align: center;
+}
+
+
+/* styling for heading */
+h1 {
+    font-size: 24px;
+    color: #0d7dd4;
+}
+
+
+h2 {
+    font-size: 20px;
+    color: #0d7dd4;
+
+}
+
+/* styling for p */
+
+p {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    color: #0d7dd4;
+}
+
+
+
+
+/* styling for links */
+
+a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #517356;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+    .main-page-header {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .img-container {
+        margin: 10px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .main-page-header {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .img-container {
+        margin: 5px;
+    }
+
+}
+
+
+
+
+}
