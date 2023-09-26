@@ -1,7 +1,7 @@
 /* main styling for first page */
 
 .main-page-header {
-    background-color: #333;
+    background-color: #738D6F;
     color: #fff;
     text-align: center;
 }
@@ -22,13 +22,13 @@
 /* styling for heading */
 h1 {
     font-size: 24px;
-    color: #0d7dd4;
+    color: #000;
 }
 
 
 h2 {
     font-size: 20px;
-    color: #0d7dd4;
+    color: #738D6F;
 
 }
 
@@ -37,8 +37,9 @@ h2 {
 p {
     font-family: "Arial", sans-serif;
     font-size: 18px;
-    color: #0d7dd4;
+    color: #738D6F;
 }
+
 
 
 
@@ -46,13 +47,25 @@ p {
 /* styling for links */
 
 a {
-    color: #0077ff;
+    color: #000;
     text-decoration: none;
+    font-family: helvetica;
+    text-align: ;text-decoration: none;
+    text-transform: uppercase;
 }
 
 a:hover {
-    color: #517356;
+    color: #fff;
 }
+
+a:visted {
+  color: red;
+
+}
+
+
+/* styling for second page */
+
 
 /* media queries */
 
@@ -86,7 +99,3 @@ a:hover {
 
 }
 
-
-
-
-}
