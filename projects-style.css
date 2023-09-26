@@ -73,7 +73,6 @@ body {
     line-height: 1.5;
     height: 100vh;
     margin: 0 auto;
-    padding: 0 auto;
     text-align: center;
     max-width: 1000px;
     background-color: black;
@@ -132,7 +131,6 @@ table {
     height: 420px;
     width: 460px;
     margin: 0 auto;
-    padding: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
 }
